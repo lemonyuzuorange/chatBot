@@ -3,13 +3,3 @@
 generated/
 logs/
 __pycache__
-seq2seq.cktp-124000.data-00000-of-00001
-seq2seq.cktp-125000.data-00000-of-00001
-seq2seq.cktp-126000.data-00000-of-00001
-seq2seq.cktp-125500.data-00000-of-00001
-.git/objects/3c/75e17f155a61152ec9e082e995c65edf15d60a
-.git/objects/33/aa1c81a13472f05c658c332a5aa1e2baec16f5
-.git/objects/dc/4d1f738ec720d2f7121d9187e9299b0f647bd8
-.git/objects/e0/f0228c90245bd8fc6da92cb7fc96ff690aaac7
-.git/objects/8b/6bf0ade916e88c5a5aa7ae1a26f29fb17109c1
-seq2seq.cktp-124500.data-00000-of-00001
