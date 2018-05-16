@@ -3,12 +3,15 @@ Seq2Seq chatbot (ja)
 
 Overview
 
+## reference
+https://github.com/wataruhashimoto52/Seq2Seq-chatbot
+
 ## Description
 This is seq2seq chatbot.
 
 ## Requirement
-python 3.5.2  
-Tensorflow r1.2  
+python 3.5.1  
+Tensorflow 1.8.0
 Mecab  
 tweepy  
 
@@ -24,9 +27,8 @@ tweepy
 
     `$ brew install forego`
 
-    Then, please make `.env` file and write consumerkey, consumer secret key, access token key and access token secret key.
-
-    `$ vi .env` 
+    Then, please make `constant_system.py` file and write consumerkey, consumer secret key, access token key and access token secret key.
+    And please write filePath.
 
     ```
     CONSUMER_KEY=...
@@ -34,6 +36,7 @@ tweepy
     ACCESS_TOKEN=...
     ACCESS_TOKEN_SECRET=...
     ```
+
 
     4, `$ forego run python twitter_replies.py`
 2. Preprocess the train data and generate vocabulary files, ID files, and some ones.
